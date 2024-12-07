@@ -7,20 +7,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const phoneInput = document.getElementById("phone");
   const messageInput = document.getElementById("message");
 
-  // Kontaktlarni olish
   const fetchContacts = async () => {
     try {
       const response = await fetch(API_URL);
       if (!response.ok) throw new Error(`Xato: ${response.status}`);
       const data = await response.json();
-      displayContacts(data); // Ma'lumotni ekranga chiqarish
+      displayContacts(data);
     } catch (error) {
       console.error("Kontaktlarni olishda xato:", error);
       contactsContainer.innerHTML = `<p class="text-gray-600">Hozircha hech qanday kontakt mavjud emas.</p>`;
     }
   };
 
-  // Kontaktlarni ko'rsatish
   const displayContacts = (data) => {
     contactsContainer.innerHTML = "";
     if (data.length === 0) {
@@ -91,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  // Formani yuborish
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const name = nameInput.value.trim();
@@ -116,8 +113,8 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         if (!response.ok) throw new Error(`Xato: ${response.status}`);
-        fetchContacts(); // Yangi kontakt qo'shilgandan keyin yangilanish
-        form.reset(); // Formani tozalash
+        fetchContacts();
+        form.reset();
       } catch (error) {
         console.error("Kontakt qo'shishda xato:", error);
       }
@@ -126,7 +123,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Kontaktni tahrirlash
   const editContact = async (item) => {
     const newName = prompt("Yangi ismni kiriting:", item.name);
     const newEmail = prompt("Yangi emailni kiriting:", item.email);
@@ -149,14 +145,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         if (!response.ok) throw new Error(`Xato: ${response.status}`);
-        fetchContacts(); // Yangi o'zgarishlarni yuklash
+        fetchContacts();
       } catch (error) {
         console.error("Kontaktni o'zgartirishda xato:", error);
       }
     }
   };
 
-  // Kontaktni o'chirish
   const deleteContact = async (id) => {
     if (confirm("Kontaktni o'chirishga ishonchingiz komilmi?")) {
       try {
@@ -164,12 +159,12 @@ document.addEventListener("DOMContentLoaded", () => {
           method: "DELETE",
         });
         if (!response.ok) throw new Error(`Xato: ${response.status}`);
-        fetchContacts(); // O'chirilgan kontaktni yangilash
+        fetchContacts();
       } catch (error) {
         console.error("Kontaktni o'chirishda xato:", error);
       }
     }
   };
 
-  fetchContacts(); // Initial kontaktlarni olish
+  fetchContacts();
 });
