@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt CRUD</title>
+    <script defer src="contact.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto py-8">
+        <nav class="flex justify-between px-12 p-10">
+            <img src="./acses/icon/LogoDev.svg" alt="">
+            <ul class="flex gap-10">
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./index.html">Home</a></li>
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./portfolio.html">Portfolio</a></li>
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./setup.html">setup</a></li>
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./aboutme.html">About me</a></li>
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./testimonials.html">testimonials</a></li>
+                <li><a class="text-[lightgrey] opacity-55 no-underline text-[25px] hover:opacity-100 hover:transition-all hover:text-white"
+                        href="./contact.html">contact</a></li>
+            </ul>
+        </nav>
+
+        <h1 class="text-3xl font-bold text-center mb-8">Kontakt CRUD Amallari</h1>
+
+        <div class="bg-white p-6 rounded-md shadow-md max-w-2xl mx-auto mb-8">
+            <h2 class="text-2xl font-semibold mb-4">Yangi Kontakt Qo'shish</h2>
+            <form id="contact-form" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Ism</label>
+                    <input type="text" id="name"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        placeholder="Ismingizni kiriting" required />
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        placeholder="Email manzilingizni kiriting" required />
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700">Telefon</label>
+                    <input type="text" id="phone"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        placeholder="Telefon raqamingizni kiriting" required />
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Xabar</label>
+                    <textarea id="message"
+                        class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                        placeholder="Xabaringizni kiriting" required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600">
+                    Qo'shish
+                </button>
+            </form>
+        </div>
+
+        <div id="contacts" class="space-y-4 max-w-4xl mx-auto"></div>
+    </div>
+    <script src="./contact.js"></script>
+</body>
+
+</html>

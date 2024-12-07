@@ -1,0 +1,119 @@
+{
+  "home": [
+    {
+      "id": "f68b",
+      "title": "salom hammaga nima gap",
+      "subtitle": "muhammad",
+      "heroImage": "https://www.shutterstock.com/image-photo/bolu-golcuk-tabiat-parki-wooden-260nw-1796227234.jpg"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "title": "Portfolio 1",
+      "description": "Description for Portfolio 1",
+      "image": "https://s3-alpha-sig.figma.com/img/cde1/ed3f/8fef957d91df8b936cfec57c896c18cd?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=n1qvZeKY6Jp1csAUSh5YdNxgaDUeLVFwuXwgztY-sRb6ND34LjlZgw8HH10cl1QF4YWUyMs8JAhN3QjSPfHC8yELLRi6E~2~cAI3o9Ot8Pc0s04iC8jUTE7p5hUoOlL6EEWvEVeu6jH6H-4XRb6GrPG8E0Ngl22w-NiNpTwdsxN4-gJXdUAXDjU42LSnj8KVK9Af3qJqg4WHCqQk0NqwUxamvnaW13jRwJAq03swvxJomZ7k9~~USTHXkf3KZc9hzuf88Wue3OXoWxhDRDfxiZPpxUw44nbhrRX21wVqk27zJv8tpyhDSOLUllggXqfjH~g6COe-A1NJ6brlsBljNg__"
+    },
+    {
+      "id": "2",
+      "title": "Portfolio 2",
+      "description": "Description for Portfolio 2",
+      "image": "https://s3-alpha-sig.figma.com/img/5434/3298/a141a5f4577a33b778bf2014ec405b7f?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a7xoE9AYL8mduCmmGaC~WtNdGkgxyeSDlS3K3K9ZAxZfknl5VbEYstxV1Ic4lgwtXAzJJmFhMOh8NT2fodc1kkNkKEPSe9-rg2tQEH2nXIfpLYLoZqkuwLRuCUxA12euz9lkUYGPs7cLAdKoc-my4Wt5ToY-60CPKJKUcEr9cf8nryXdY5q1bpy0hLJ8g2obC5u3EUfYSt5NhzI6CjLiZWDjM4FBkLRZqpjBdn08IiPEuhBS57axRLgJ2-wPUA5O1hWUjm468lz-kS8OrqKQmdYqY121P13N4LWhmn6SNCRU6FABs3oimcwdpTlNr1SU7oPvbe4b8~TnyIeuJhDCOw__"
+    },
+    {
+      "id": "3",
+      "title": "Portfolio 3",
+      "description": "Description for Portfolio 3",
+      "image": "https://avatars.mds.yandex.net/get-shedevrum/11079990/04fc85fdb10811ee9552d65bcdbc3dcb/orig"
+    },
+    {
+      "id": "d4bc",
+      "image": "https://www.investopedia.com/thmb/ckPwC5ARwco1nOSCKVGE57se8MI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1245748917-99e3329a7b8147e8ab648806220ce153.jpg",
+      "title": "Muhammad",
+      "description": "Messi"
+    },
+    {
+      "id": "d318",
+      "image": "https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg",
+      "title": "Messi",
+      "description": "Messi"
+    }
+  ],
+  "setup": [
+    {
+      "id": "1",
+      "bio": "Intel Core I7-8th Gen",
+      "ram": "RAM 8GB",
+      "hdd": "HDD 1TB",
+      "display": "Display FHD 15.6”",
+      "gpu": "NVIDIA® MX250 2GB"
+    },
+    {
+      "id": "2",
+      "bio": "Intel Celeron N3050",
+      "ram": "RAM 4GB",
+      "hdd": "SSD 480 GB",
+      "display": "Display HD 15.6”",
+      "gpu": "Intel HD Graphics"
+    },
+    {
+      "names": "Keyboard & Mouse",
+      "bio": "Intel Core I7-8th Gen",
+      "ram": "RAM 8GB",
+      "hdd": "HDD 1TB",
+      "display": "Display FHD 15.6”",
+      "gpu": "NVIDIA® MX250 2GB",
+      "id": "3"
+    }
+  ],
+  "aboutme": [
+    {
+      "image": "https://statica.alifshop.uz/shop/products/DPs5AAF1Z4EPsOG7nZOUgfZGYKFCSOGCuRqM3qql.png",
+      "subtitle1": "Lorem ipsum dolor sit 33amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+      "title": "lorem ipsum dolor sit amet?33",
+      "subtitle2": "Lorem ipsum dolor sit amet, consectetur adip33iscing elit, sed do eiusmod tempor incididunt.",
+      "id": "1"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "role": "Project Manager, TechCorp",
+      "message": "Jane's dedication and attention to detail are exceptional. She always delivers beyond expectations!",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": "2",
+      "name": "Emily Davis",
+      "role": "CEO, Startup Co.",
+      "message": "Working with Jane was a pleasure. Her ability to solve complex problems is unmatched.",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Muhammad Nuraliyev",
+      "role": "dasturchi",
+      "message": "fikr",
+      "image": "https://www.fcbarcelona.com/fcbarcelona/photo/2022/08/02/ae5252d1-b79b-4950-9e34-6e67fac09bb0/LeoMessi20092010_pic_fcb-arsenal62.jpg",
+      "id": "f4b5"
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+1234567890",
+      "address": "123 Developer Lane, Tech City, TX, 12345",
+      "mapLink": "https://maps.google.com"
+    },
+    {
+      "id": "da64",
+      "name": "Muhammad Nuraliyev",
+      "email": "muhammadnuraliyev119@gmail.com",
+      "phone": "+998970223808",
+      "address": "123 Developer Lane",
+      "mapLink": "https://maps.google.com"
+    }
+  ]
+}
